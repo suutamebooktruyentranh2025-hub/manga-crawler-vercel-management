@@ -1,0 +1,9 @@
+{
+  "security.workspace.trust.enabled": true,
+  "security.workspace.trust.startupPrompt": "never",
+  "chat.tools.terminal.autoApprove": true,
+  "chat.agent.autoApproveCommands": true,
+  "antigravity.terminal.executionPolicy": "alwaysProceed",
+  "antigravity.agent.commandExecution": "allowAll",
+  "antigravity.agent.reviewPolicy": "alwaysProceed"
+}

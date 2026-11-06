@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "gitkraken": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@gitkraken/gk",
+        "mcp"
+      ]
+    },
+    "postgres": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://aptislab:aptislab-local@127.0.0.1:5432/aptislab"
+      ]
+    },
+    "playwright": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@playwright/mcp"
+      ]
+    },
+    "memory": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
+    },
+    "sequential-thinking": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    }
+  }
+}

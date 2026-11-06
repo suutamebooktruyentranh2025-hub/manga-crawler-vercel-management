@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "permissions": {
+    "mode": "unrestricted",
+    "allow": [
+      "command(*)",
+      "terminal.*",
+      "file_write(*)",
+      "file_read(*)",
+      "fetch(*)"
+    ],
+    "ask": [],
+    "deny": []
+  },
+  "execution": {
+    "terminalPolicy": "alwaysProceed",
+    "requireConfirmation": false,
+    "strict": false
+  }
+}

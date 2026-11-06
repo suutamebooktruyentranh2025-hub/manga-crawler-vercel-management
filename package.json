@@ -1,0 +1,28 @@
+{
+  "name": "supabase-vercel-management",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --test lib/admin/membership.test.mjs lib/admin/existing-user-warning.test.mjs lib/admin/store.test.mjs lib/admin/filter-rows.test.mjs lib/admin/dashboard-stats.test.mjs lib/admin/dashboard-tabs.test.mjs lib/account/tier-info.test.mjs lib/account/entitlements.test.mjs lib/catalog/access.test.mjs lib/catalog/map-rows.test.mjs lib/catalog/filters.test.mjs lib/catalog/rate.test.mjs lib/ui/header-nav.test.mjs lib/ui/event-countdown.test.mjs lib/event/event.test.mjs lib/event/store.test.mjs",
+    "test:security-validators": "node --test .agents/skills/security-audit/validate-coverage-ledger.test.cjs .agents/skills/security-audit/validate-findings.test.cjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.4",
+    "@supabase/supabase-js": "^2.112.3",
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.0",
+    "tailwindcss": "^4"
+  }
+}
